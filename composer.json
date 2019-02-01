@@ -1,0 +1,41 @@
+{
+  "name": "swoft/socketio",
+  "type": "library",
+  "keywords": [
+    "php",
+    "swoole",
+    "swoft",
+    "socket.io",
+    "websocket"
+  ],
+  "description": "websocket server for swoft, implement socket.io",
+  "license": "Apache-2.0",
+  "require": {
+    "swoft/websocket-server": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Swoft\\SocketIO\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SwoftTest\\SocketIO\\": "test/Cases"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit"
+  }
+}
