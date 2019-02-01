@@ -1,3 +1,3 @@
 # Swoft Socket.io
 
-socketio for swoft framework. **Un-completed**
+socketio for swoft framework. **Work in progress**
